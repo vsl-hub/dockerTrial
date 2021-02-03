@@ -1,4 +1,4 @@
-FROM ubuntu/nginx
+FROM nginx
 COPY wrapper.sh /
 COPY html /usr/share/nginx/html
 RUN chmod +x wrapper.sh
